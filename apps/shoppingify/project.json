@@ -24,7 +24,8 @@
       "executor": "@nrwl/vite:dev-server",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "shoppingify:build"
+        "buildTarget": "shoppingify:build",
+        "proxyConfig": "apps/shoppingify/proxy.conf.json"
       },
       "configurations": {
         "development": {
