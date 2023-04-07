@@ -2,7 +2,9 @@
   "name": "shoppingify",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "serve": "nx run-many --target=serve"
+  },
   "private": true,
   "dependencies": {
     "@nestjs/common": "^9.0.0",
